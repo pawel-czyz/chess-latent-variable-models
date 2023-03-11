@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "morfi"
+version = "0.1.0"
+description = ""
+authors = ["Paweł Czyż <pczyz@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "morfi", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+chess = "^1.9.4"
+numpy = "^1.24.2"
+pymc = "^5.1.1"
+arviz = "^0.15.1"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

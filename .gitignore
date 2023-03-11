@@ -1,3 +1,14 @@
+# Data
+data/
+*.pgn
+*.pgn.zst
+*.zip
+*.gz
+
+# Notebooks should be used via Quatro only
+# or convert to Python scripts
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
