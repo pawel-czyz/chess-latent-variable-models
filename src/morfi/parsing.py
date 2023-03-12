@@ -24,6 +24,7 @@ import pydantic
 
 class HeadersData(pydantic.BaseModel):
     """Object storing parsed data."""
+
     # General event data
     event_name: str
     result: str
