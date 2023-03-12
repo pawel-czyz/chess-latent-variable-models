@@ -4,10 +4,20 @@ data/
 *.pgn.zst
 *.zip
 *.gz
+*.csv
+*.pgn
+*.yaml
+*.yml
+*.json
+
 
 # Notebooks should be used via Quatro only
 # or convert to Python scripts
 *.ipynb
+
+# Environment
+.idea/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
